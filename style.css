@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+}
+.container{
+    display: flex;  
+    flex-direction: column;
+    width: 80%;
+    background-color: hsl(0, 0%, 100%);
+    padding: 1rem;
+    border-radius: 15px;
+}
+img{
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    color: hsl(218, 44%, 22%);
+}
+.text1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.text2{
+    display: flex;
+    text-align: center;
+    margin: 0rem 1rem 1rem 1rem;
+}
+p{
+    margin-top: 0rem;
+    display: flex;
+    justify-content: center;
+    color: hsl(220, 15%, 55%);
+}
+@media only screen and (min-width: 1024px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        background-color: hsl(0, 0%, 100%);
+        padding: 1rem;
+        border-radius: 15px;
+    }
+    img{
+        border-radius: 15px;
+        width: 100%;
+        height: auto;
+    }
+    h2{
+        display: flex;
+        justify-content: center;
+        color: hsl(218, 44%, 22%);
+    }
+    .text1{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .text2{
+        display: flex;
+        text-align: center;
+        margin: 0rem 1rem 1rem 1rem;
+    }
+    p{
+        margin-top: 0rem;
+        display: flex;
+        justify-content: center;
+        color: hsl(220, 15%, 55%);
+    }
+}
